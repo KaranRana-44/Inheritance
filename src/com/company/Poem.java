@@ -15,12 +15,14 @@ public class Poem {
         System.out.println("Free verse!");
     }
 
-    public void printTa(){
-        System.out.print("ta");
-        if (j != getSyllables(i)-1) {
+    public void printTa(int k){
+        for (int j = 0; j < k; j++) {
+            System.out.print("ta");
+        if (j != k-1){
             System.out.print("-");
+            }
         }
-
+        System.out.println();
     }
 
 }
