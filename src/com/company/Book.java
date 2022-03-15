@@ -11,6 +11,6 @@ public class Book {
     }
 
     public void printBookInfo(){
-        System.out.println(title+",written by "+author);
+        System.out.print(title+",written by "+author);
     }
 }
